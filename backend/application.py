@@ -1,4 +1,4 @@
-"""Application module."""
+"""Application module.
 
 from fastapi import FastAPI
 
@@ -23,3 +23,15 @@ def create_app() -> FastAPI:
 
 
 app = create_app()
+"""
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return "Hello, world!"
+
+if __name__ == "__main__":
+    app.run(debug=True) # debug=True restarts the server everytime we make a change in our code
