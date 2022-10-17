@@ -5,7 +5,7 @@ class Register extends Component {
         return (
             <div className="w3-card-4" style={{ margin: "2rem" }}>
                 <div className="w3-container w3-blue w3-center w3-xlarge">
-                    REGISTER
+                    Sign Up
                 </div>
                 <div className="w3-container">
                     <form>

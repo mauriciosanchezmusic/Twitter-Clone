@@ -5,7 +5,7 @@ class Login extends Component {
         return (
             <div className="w3-card-4" style={{ margin: "2rem" }}>
                 <div className="w3-container w3-blue w3-center w3-xlarge">
-                    LOGIN
+                    Log In
                 </div>
                 <div className="w3-container">
                     <form>
