@@ -7,3 +7,13 @@ MarkupSafe
 python-dotenv
 Werkzeug
 sqlalchemy
+flask-sqlalchemy
+dependency-injector
+fastapi
+uvicorn
+pyyaml
+sqlalchemy
+pytest
+requests
+pytest-cov
+flask-cors
