@@ -2,10 +2,10 @@ version: "3.7"
 
 services:
 
-  webapp:
+  twitterclone:
     build: ./
-    image: webapp
+    image: twitterclone
     ports:
-      - "8000:8000"
+      - "3000:3000"
     volumes:
       - "./:/code"
