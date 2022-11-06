@@ -1,5 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
+from .View.Endpoint_User import endpointUser
+
 
 app = Flask(__name__, static_folder="../build", static_url_path="/")
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///webapp.db"
